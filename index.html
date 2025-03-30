@@ -1,220 +1,342 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Aditya Gurav Portfolio</title>
-    </head>
-    <body>
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script type="text/javascript" src="assets/js/smtp.js"></script>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">adiidg</a>
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Aditya Gurav Portfolio</title>
+</head>
+
+<body>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript" src="assets/js/smtp.js"></script>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">adiidg</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#certifications" class="nav__link">Certifications</a></li>
+                    <li class="nav__item"><a href="#achievements-gallery" class="nav__link">Gallery</a></li>
+                    <!-- Added Gallery Nav Link -->
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi, I'am <span class="home__title-color">Aditya</span><br> AI & DS Engineering
+                    <br> Student
+                </h1>
+
+                <a href="assets/Aditya Gurav CV 2025.pdf" class="button">Resume</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/adiiidg" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://www.github.com/adiidg" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.png" alt="">
                 </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Participations</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                <div>
+                    <h2 class="about__subtitle">I'am Aditya</h2>
+                    <p class="about__text">
+                        Seeking an Internship as I am having foundation in AngularJS, PHP, HTML, CSS, JavaScript, and
+                        ReactJS.
+                        Skilled in Python, Java, and JDBC, with experience in deploying sites on GitHub, Firebase and
+                        AWS. Eager to
+                        apply web development skills and expand into AI & Data Science in a collaborative team
+                        environment. Quick
+                        to learn and adapt, with a good understanding of various programming languages. <br><br>
+                        I have HackerRank certifications and badges in SQL and Python and was named Intern of the Month
+                        at Capnit
+                        Technologies. I led a team at an NSS camp, and was a runner-up in the Someshwar Techathon for
+                        2023-24, and
+                        organized a college event for 2,000 attendees.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <p class="skills__text">Adept in web development with a strong command over front-end and back-end
+                        technologies. Proficient in database management and cloud deployment. Continuously learning and
+                        expanding my skillset in AI and Data Science.</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">Web Development (Frontend & Backend)</span>
+                        </div>
+                        <div class="skills__bar skills__html"> </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">Programming Languages (Python, Java, C++)</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+                        </div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">Databases (SQL, PostgreSQL, MongoDB)</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">Cloud Technologies (AWS, Firebase, Github)</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!--===== EXPERIENCE =====-->
+        <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="experience__container bd-grid">
+                <div class="experience__content">
+                    <h3 class="experience__title">Software Engineering Intern - <span
+                            class="experience__company">Kredendum LLP, Pune</span></h3>
+                    <p class="experience__time">06/01/2025 - 07/02/2025</p>
+                    <ul class="experience__description">
+                        <li>Developed an automatic license generation script.</li>
+                        <li>Worked on data modeling and cataloguing.</li>
+                        <li>Conducted testing to identify and document flaws.</li>
+                        <li>Collaborated with the team, gaining hands-on experience with AngularJS, NodeJS, and Jira.
+                        </li>
+                        <li>Learned structured workflows, team collaboration, and testing methodologies.</li>
                     </ul>
                 </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
+                <div class="experience__content">
+                    <h3 class="experience__title">Core Member (GDG WebDev) - <span class="experience__company">VPKBIET,
+                            Baramati</span></h3>
+                    <p class="experience__time">03/08/2024 - Present</p>
+                    <ul class="experience__description">
+                        <li>Engaged in organizing and contributing to campus-based web development initiatives.</li>
+                        <li>Facilitated workshops and projects.</li>
+                        <li>Honing skills in major tech skills.</li>
+                    </ul>
                 </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi, I'am <span class="home__title-color">Aditya</span><br> AI & DS Engineering <br> Student</h1>
-
-                    <a href="assets/Aditya Gurav Revised CV.pdf" class="button">Resume</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/adiiidg" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://www.github.com/adiidg" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about.png" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Aditya</h2>
-                        <p class="about__text">Web Developer with a good foundation in React.JS, PHP, HTML, CSS, and JavaScript. Programming skills in Python, Java,
-                        JDBC. Proven ability to design, develop, and deploy websites using platforms like GitHub and AWS. Actively expanding my
-                        knowledge into the exciting field of Artificial Intelligence & Data Science. Eager to learn and contribute to a team
-                        environment where I can leverage my web development skills and explore the potential of AI & DS. Possess a basic
-                        understanding of various programming languages, demonstrating a quick learning aptitude.</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Web developer skilled in React.js, PHP, HTML, CSS, and JavaScript, with programming experience in Python and Java.
-                        Proficient in website deployment via GitHub and AWS, and expanding into AI & Data Science. Quick learner with strong
-                        team collaboration.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">PHP & JavaScript</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">AngularJS and ReactJS</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">Python and Java</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">SQL (MySQL & PostgreSQL)</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                  
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Participations</h2>
-
-                <div class="work__container bd-grid">
-                    <a href="" class="work__img">
-                        <img src="assets/img/work00.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work8.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work7.jpg" alt="">
-                    </a>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form class="contact__form" class="form" onsubmit="sendEmail(); reset(); return false;">
-                        <input type="text" placeholder="Name" class="contact__input" id="name">
-                        <input type="mail" placeholder="Email" class="contact__input" id="maill">
-                        <textarea cols="0" rows="10" class="contact__input" id="message"></textarea>
-                        <form method="post">
-                        <input type="button" value="Submit" class="contact__button button" onclick="sendEmail(); reset(); return false;">
-                        </form>
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">ADITYA GURAV</p>
-            <div class="footer__social">
-                <a href="https://www.instagram.com/adii.dg?igsh=NTc4MTIwNjQ2YQ==" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://x.com/adii_dg?t=pdGYus21ttCFbUQ8Ogo4Ag&s=08" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-            <p class="footer__copy">adityagurav54@gmail.com</p>
-        </footer>
+        </section>
+
+        <!--===== PROJECTS =====-->
+        <section class="projects section" id="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="work__container bd-grid">
+                <div>
+                    <a href="https://e-waste-facility-locators.web.app" target="_blank" class="work__img">
+                        <img src="assets/img/ewaste.png" alt="E-waste Facility Locator">
+                    </a>
+                    <p style="margin-top: 10px;">
+                        E-waste Facility Locator is a web application that helps users find the nearest e-waste
+                        collection
+                    </p>
+                </div>
+                <div>
+                    <a href="https://brixa-adiidg.web.app" target="_blank" class="work__img">
+                        <img src="assets/img/brixa.png" alt="BRiXA">
+                    </a>
+                    <p style="margin-top: 10px;">
+                        BRiXA is an AI Chat Assistant
+                    </p>
+                </div>
+                <div>
+                    <a href="https://github.com/adiidg" target="_blank" class="work__img">
+                        <img src="assets/img/github.png" alt="GitHub Projects">
+                    </a>
+                    <p style="margin-top: 10px;">
+                        Other Github Projects
+                    </p>
+                </div>
+                <!-- You can add more project links and images here, keeping the structure -->
+            </div>
+        </section>
+
+        <!--===== CERTIFICATIONS =====-->
+        <section class="certifications section" id="certifications">
+            <h2 class="section-title">Certifications & Honors</h2>
+
+            <div class="certifications__container bd-grid">
+                <ul class="certifications__list">
+                    <li>
+                        <a href="https://www.linkedin.com/in/adiiidg/details/certifications/" target="_blank"
+                            class="certification__link">
+                            Certification's Link
+                        </a>
+                        <p class="certification__description">
+                            HackerRank Certifications and Badges
+                        </p>
+                        <p class="certification__description">
+                            In SQL and Python, demonstrating proficiency in these areas.
+                        </p>
+                    </li>
+                    <li>
+                        <span class="certification__no_link">
+                            Named Intern of the Month at Capnit Technologies
+                        </span>
+                    </li>
+                    <li>
+                        <span class="certification__no_link">
+                            Runner-up in the Someshwar Techathon for 2023-24
+                        </span>
+                    </li>
+                    <!-- You can list other relevant certifications or honors here, following the structure -->
+                </ul>
+            </div>
+        </section>
+
+        <!--===== ACHIEVEMENTS GALLERY =====-->
+        <section class="achievements-gallery section" id="achievements-gallery">
+            <!-- Added Achievements Gallery Section -->
+            <h2 class="section-title">Achievements Gallery</h2>
+
+            <div class="work__container bd-grid"> <!-- Reusing work__container for grid layout -->
+                <div class="work__img"> <!-- Reusing work__img for image styling -->
+                    <img src="assets/img/gallery/work00.jpg" alt="Achievement Image 1"> <!-- Placeholder Image 1 -->
+                </div>
+                <div class="work__img"> <!-- Reusing work__img for image styling -->
+                    <img src="assets/img/gallery/work1.jpg" alt="Achievement Image 2"> <!-- Placeholder Image 2 -->
+                </div>
+                <div class="work__img"> <!-- Reusing work__img for image styling -->
+                    <img src="assets/img/gallery/work2.jpg" alt="Achievement Image 3"> <!-- Placeholder Image 3 -->
+                </div>
+                <div class="work__img"> <!-- Reusing work__img for image styling -->
+                    <img src="assets/img/gallery/work3.jpg" alt="Achievement Image 4"> <!-- Placeholder Image 4 -->
+                </div>
+                <div class="work__img"> <!-- Reusing work__img for image styling -->
+                    <img src="assets/img/gallery/work4.jpg" alt="Achievement Image 1"> <!-- Placeholder Image 1 -->
+                </div>
+                <div class="work__img"> <!-- Reusing work__img for image styling -->
+                    <img src="assets/img/gallery/work5.jpg" alt="Achievement Image 2"> <!-- Placeholder Image 2 -->
+                </div>
+                <div class="work__img"> <!-- Reusing work__img for image styling -->
+                    <img src="assets/img/gallery/work6.jpg" alt="Achievement Image 3"> <!-- Placeholder Image 3 -->
+                </div>
+                <div class="work__img"> <!-- Reusing work__img for image styling -->
+                    <img src="assets/img/gallery/work7.jpg" alt="Achievement Image 4"> <!-- Placeholder Image 4 -->
+                </div>
+                <div class="work__img"> <!-- Reusing work__img for image styling -->
+                    <img src="assets/img/gallery/work8.jpg" alt="Achievement Image 4"> <!-- Placeholder Image 4 -->
+                </div>
+                <!-- Add more work__img divs here for more images in your gallery -->
+            </div>
+        </section>
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+            <div class="contact__container bd-grid">
+                <form class="contact__form" class="form" onsubmit="sendEmail(); reset(); return false;">
+                    <input type="text" placeholder="Name" class="contact__input" id="name">
+                    <input type="mail" placeholder="Email" class="contact__input" id="maill">
+                    <textarea cols="0" rows="10" class="contact__input" id="message"></textarea>
+                    <form method="post">
+                        <input type="button" value="Submit" class="contact__button button"
+                            onclick="sendEmail(); reset(); return false;">
+                    </form>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">ADITYA GURAV</p>
+        <div class="footer__social">
+            <a href="https://www.instagram.com/adii.dg?igsh=NTc4MTIwNjQ2YQ==" class="footer__icon"><i
+                    class='bx bxl-instagram'></i></a>
+            <a href="https://x.com/adii_dg?t=pdGYus21ttCFbUQ8Ogo4Ag&s=08" class="footer__icon"><i
+                    class='bx bxl-twitter'></i></a>
+        </div>
+        <p class="footer__copy">adityagurav54@gmail.com</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
